@@ -1,0 +1,53 @@
+body{
+    background-color: #eee;
+}
+#main{
+    max-width: 900px;
+    width: 70%;
+    margin: auto;
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    text-align: center;
+    margin-top: 0%;
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    background-color: azure;
+}
+img{
+  display: block;
+}
+#image{
+    width: 100%;
+    height: 90%;
+}
+#tribute-info{
+    max-width: 600px;
+}
+#tribute-info p{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+span{
+    font-weight: 600;
+}
+i{
+    padding: 5px 0px 5px 20px;
+    display: block;
+    border-left: 7px solid lightskyblue;
+    margin-bottom: 30px;
+}
+.last{
+    max-width: 600px;
+}

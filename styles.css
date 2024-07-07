@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/realistic-luxury-background_23-2149354608.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: azure;
+}
+h1, p {
+    text-align: center;
+}
+form{
+    margin: 20px auto;
+    width: 70vw;
+    min-width: 380px;
+    max-width: 600px;
+    padding: 2em 4em;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+input{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+select{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+}
+fieldset{
+    margin-bottom: 10px;
+}
+fieldset input{
+    width: 3%;
+}
+fieldset label{
+    display: block;
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    margin: 10px 0;
+}
+input[type="submit"]{
+    width: 30%;
+    margin-bottom: 0px;
+    border: 1.5px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+}

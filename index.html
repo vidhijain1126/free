@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form to collect data from user.</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Name: <input type="text" id="name" placeholder="Enter your name" required></label>
+        <label id="email-label" for="email">Email: <input type="email" id="email" placeholder="Enter your email" required></label>
+        <label id="number-label" for="number">Age: <input type="number" id="number" placeholder="Enter your age" min="10" max="100"></label>
+        <label id="education" for="education">Education: <select id="dropdown">
+            <option value="">Select one among this</option>
+            <option value="1">High School</option>
+            <option value="2">High Secondary</option>
+            <option value="3">UG</option>
+            <option value="4">PG</option>
+            <option value="other">Other</option>
+        </select></label>
+        <fieldset>
+            <legend>Gender: </legend>
+            <label id="male" for="male"><input type="radio" name="gender" value="male" checked> Male</label>
+            <label id="female" for="female"><input type="radio" name="gender"value="female"> Female</label>
+            <label id="other" for="other"><input type="radio" name="gender" value="other"> Other</label>
+        </fieldset>
+        <fieldset>
+            <legend>Hobbies: </legend>
+            <label id="play" for="play"><input type="checkbox" name="Hobbies" value="play" checked> Play</label>
+            <label id="cook" for="cook"><input type="checkbox" name="Hobbies" value="cook"> Cooking</label>
+            <label id="code" for="code"><input type="checkbox" name="Hobbies" value="code"> Coding</label>
+            <label id="dance" for="dance"><input type="checkbox" name="Hobbies" value="dance"> Dancing</label>
+            <label id="sing" for="sing"><input type="checkbox" name="Hobbies" value="sing"> Singing</label>
+            <label id="art" for="art"><input type="checkbox" name="Hobbies" value="art"> Art</label>
+        </fieldset>
+        <label id="comments" for="comments">Comments: <textarea placeholder="Messages" rows="5"></textarea></label>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+</html>
