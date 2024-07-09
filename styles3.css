@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+aside{
+    padding: 0.9% 0 0 1%;
+    background-color: beige;
+    position: fixed;
+    height: 100vh;
+}
+ul{
+    list-style: none;
+    padding-left: 10px;
+}
+ul li{
+    padding: 0;
+}
+li a{
+    color: #000;
+    text-decoration: none;
+    padding: 20px 30px; 
+    display: block;
+    border-bottom: 3px solid black;
+}
+header{
+    font-weight: bold;
+    font-size: 18px;
+}
+#main-doc{
+    padding: 0.1% 1% 1% 13%;
+}
+@media (min-width: 390px) {
+    body{
+        overflow-x: hidden;
+    }
+}
