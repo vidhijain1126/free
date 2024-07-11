@@ -86,7 +86,7 @@ Follow these guidelines to structure your HTML content and meet the project requ
 
 
 
-    # Technical Documentation Page
+# Technical Documentation Page
 
 This project is a technical documentation page created to fulfill the specified user stories and requirements. The page features a main content area and a navigation bar that helps users navigate through different sections of the documentation. The content and style are designed to be both functional and aesthetically pleasing.
 
