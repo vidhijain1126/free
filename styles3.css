@@ -10,6 +10,9 @@ aside{
     position: fixed;
     height: 100vh;
 }
+.menu{
+    display: none;
+}
 ul{
     list-style: none;
     padding-left: 10px;
@@ -27,12 +30,51 @@ li a{
 header{
     font-weight: bold;
     font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 10px;
 }
 #main-doc{
     padding: 0.1% 1% 1% 13%;
 }
-@media (min-width: 390px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
+    #main-doc{
+        padding: 0.1% 1% 1% 16%;
+    }
+}
+@media (min-width: 900px) and (max-width: 1024px) {
+    #main-doc{
+        padding: 0.1% 1% 1% 24%;
+    }
+    li a{
+        padding: 20px 45px;
+    }
+}
+@media (min-width: 0px) and (max-width: 900px) {
     body{
         overflow-x: hidden;
+    }
+    aside{
+        position: relative;
+        height: auto;
+    }
+    #main-doc{
+        padding: 1% 4%;
+    }
+    h3{
+        margin: 5px 0;
+    }
+    ul{
+        display: none;
+    }
+    aside header{
+        padding: 5px 10px 10px;
+    }
+    .menu{
+        display: inline-block;
+        margin-left: auto;
+    }
+    .menu:hover ul{
+        display: block;
     }
 }
